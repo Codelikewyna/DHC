@@ -1,0 +1,68 @@
+
+#blog-posts {
+  max-width: 800px;
+  margin: 0 auto;
+}
+#blog-posts h3 {
+  text-align: center;
+  color: #333;
+}
+#posts-list {
+  list-style-type: none;
+  padding: 0;
+}
+#posts-list li {
+  background: #e5f1ff;
+  margin: 1px 0;
+  padding: 15px;
+  overflow: hidden;
+}
+#posts-list li img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px 30px 0 0;
+}
+#posts-list li div {
+  padding: 15px;
+}
+#posts-list li a {
+  text-decoration: none;
+  color: #1046AE;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin: 10px 0;
+}
+#posts-list li p {
+  color: #555;
+  margin: 10px 0 0;
+}
+
+
+/*spinner*/
+
+     
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 5px solid #f3f3f3;
+      border-top: 5px solid #32a8dd;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      
+    }
+
+    /* Spin animation */
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+
+#blogspinner {
+    display: flex; /* Use Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    /*min-width: 50px;*/ /* Ensure enough height for centering */
+}
+
